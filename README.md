@@ -1,9 +1,9 @@
 # My Learning Course Repository
 
-Welcome to my educational journey! 📚  
+Welcome to my educational journey! 📚 
 This repository contains a structured, 9-part course I completed, along with my personal notes and learnings from each section.
 
-## 📌 Overview
+## Overview
 
 - **Total Sections:** 9
 - **Format:** Each section has its own file and contains relevant code, notebooks, or documents.
@@ -11,7 +11,7 @@ This repository contains a structured, 9-part course I completed, along with my 
 
 ---
 
-## 📂 Course Structure & Key Learnings
+## Course Structure & Key Learnings
 
 ### 1️⃣ Section 1 - Linear Regression & Model Basics
 

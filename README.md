@@ -13,16 +13,16 @@ This repository contains a structured, 9-part course I completed, along with my 
 
 ## 📂 Course Structure & Key Learnings
 
-### 1️⃣ Section 1 - [Section Title]
+### 1️⃣ Section 1 - Linear Regression & Model Basics
+
 **Description:**  
-_A brief overview of what this section covers._
+This section covers the fundamentals of building a simple linear regression model with PyTorch, including how to define, train, and save models.
 
 **What I learned:**
-- Point 1
-- Point 2
-- Point 3
+- Building a **Linear Regression** model from scratch using `nn.Linear`
+- Using **`L1Loss`** for regression tasks
+- Saving and loading model weights using `model.state_dict()` and `torch.save()`
 
----
 
 ### 2️⃣ Section 2 - Binary & Multi-Label Classification
 
@@ -133,4 +133,4 @@ _Final thoughts and wrap-up of the course._
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/MahsaNasehi/PyTorch-Learning.git

@@ -23,7 +23,7 @@ This section covers the fundamentals of building a simple linear regression mode
 - Using **`L1Loss`** for regression tasks
 - Saving and loading model weights using `model.state_dict()` and `torch.save()`
 
-
+---
 ### 2️⃣ Section 2 - Binary & Multi-Label Classification
 
 **Description:**  
@@ -42,7 +42,7 @@ This section introduces the concepts of binary and multi-label classification us
 - Visualizing model decisions with `plot_decision_boundary`
 - Using `torchmetrics.Accuracy` for model evaluation
 
-
+---
 ### 3️⃣ Section 3 - MNIST & FashionMNIST Classification
 
 **Description:**  
@@ -61,16 +61,22 @@ This section focuses on image classification using the MNIST and FashionMNIST da
   - **`torchmetrics`** (for accuracy and other metrics)
   - **confusion matrix** (via `mlxtend.plotting.plot_confusion_matrix`)
 - Saving and loading trained models using `torch.save()` and `torch.load()`
+---
 
+### 4️⃣ Section 4 - Custom Image Classification with PyTorch
 
-### 4️⃣ Section 4 - [Section Title]
 **Description:**  
-_Short description of this section._
+This section focuses on training image classification models on custom datasets using PyTorch. It includes working with standardized folder structures, creating custom dataset classes, and writing flexible, device-agnostic code.
 
 **What I learned:**
-- Point 1
-- Point 2
-- Point 3
+- How to structure image datasets in the standard format compatible with `ImageFolder`
+- Using `torchvision.datasets.ImageFolder` to automatically load images and assign class labels
+- Creating a **custom dataset class** (`ImageFolderCustom`) for more control and customization
+- Loading and transforming images with `torchvision.transforms`
+- Exploring folder contents with a helper function: `walk_through_dir()`
+- Writing **device-agnostic code** using `torch.device` for compatibility with both CPU and GPU
+- Visualizing model architecture and parameter details using `torchinfo.summary()`
+- Training an image classification model on the **pizza_steak_sushi** dataset
 
 ---
 
